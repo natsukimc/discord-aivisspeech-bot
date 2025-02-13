@@ -209,10 +209,6 @@ class VoiceCog(commands.Cog):
         await self.leave_voice_channel(guild_id, channel_id)
         await interaction.response.send_message("読み上げを終了します。")
 
-    @app_commands.command(name="chars", description="残りの文字数を確認")
-    async def remaining_chars(self, interaction: discord.Interaction):
-        """残りの文字数を確認"""
-        await interaction.response.send_message("この機能は無効になっています。")
 
     @commands.Cog.listener()
     async def on_voice_state_update(self, member, before, after):
