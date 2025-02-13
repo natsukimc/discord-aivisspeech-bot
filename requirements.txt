@@ -1,0 +1,7 @@
+discord.py
+discord.py[voice]
+requests
+PyNaCl
+ffmpeg-python
+gtts
+mysql-connector-python
